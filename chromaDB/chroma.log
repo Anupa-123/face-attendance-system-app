@@ -1,0 +1,379 @@
+[33mWARNING[0m:  [18-05-2024 15:00:38] chroma_server_nofile is not supported on Windows. chroma_server_nofile will not be set.
+[32mINFO[0m:     [18-05-2024 15:00:38] Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+[36mDEBUG[0m:    [18-05-2024 15:00:38] Starting component System
+[36mDEBUG[0m:    [18-05-2024 15:00:38] Starting component OpenTelemetryClient
+[36mDEBUG[0m:    [18-05-2024 15:00:38] Starting component SqliteDB
+[36mDEBUG[0m:    [18-05-2024 15:00:38] Starting component QuotaEnforcer
+[36mDEBUG[0m:    [18-05-2024 15:00:38] Starting component Posthog
+[36mDEBUG[0m:    [18-05-2024 15:00:38] Starting component LocalSegmentManager
+[36mDEBUG[0m:    [18-05-2024 15:00:38] Starting component SegmentAPI
+[32mINFO[0m:     [18-05-2024 15:00:38] Started server process [[36m1140[0m]
+[32mINFO[0m:     [18-05-2024 15:00:38] Waiting for application startup.
+[32mINFO[0m:     [18-05-2024 15:00:38] Application startup complete.
+[31mERROR[0m:    [18-05-2024 15:00:38] [Errno 10048] error while attempting to bind on address ('::1', 8000, 0, 0): only one usage of each socket address (protocol/network address/port) is normally permitted
+[32mINFO[0m:     [18-05-2024 15:00:38] Waiting for application shutdown.
+[36mDEBUG[0m:    [18-05-2024 15:00:38] Stopping component System
+[36mDEBUG[0m:    [18-05-2024 15:00:38] Stopping component SegmentAPI
+[36mDEBUG[0m:    [18-05-2024 15:00:38] Stopping component LocalSegmentManager
+[36mDEBUG[0m:    [18-05-2024 15:00:38] Stopping component Posthog
+[36mDEBUG[0m:    [18-05-2024 15:00:38] Stopping component QuotaEnforcer
+[36mDEBUG[0m:    [18-05-2024 15:00:38] Stopping component SqliteDB
+[36mDEBUG[0m:    [18-05-2024 15:00:38] Stopping component OpenTelemetryClient
+[32mINFO[0m:     [18-05-2024 15:00:38] Application shutdown complete.
+[33mWARNING[0m:  [22-05-2024 18:02:23] chroma_server_nofile is not supported on Windows. chroma_server_nofile will not be set.
+[32mINFO[0m:     [22-05-2024 18:02:23] Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+[36mDEBUG[0m:    [22-05-2024 18:02:23] Starting component System
+[36mDEBUG[0m:    [22-05-2024 18:02:23] Starting component OpenTelemetryClient
+[36mDEBUG[0m:    [22-05-2024 18:02:23] Starting component SqliteDB
+[36mDEBUG[0m:    [22-05-2024 18:02:23] Starting component QuotaEnforcer
+[36mDEBUG[0m:    [22-05-2024 18:02:23] Starting component Posthog
+[36mDEBUG[0m:    [22-05-2024 18:02:23] Starting component LocalSegmentManager
+[36mDEBUG[0m:    [22-05-2024 18:02:23] Starting component SegmentAPI
+[32mINFO[0m:     [22-05-2024 18:02:23] Started server process [[36m3644[0m]
+[32mINFO[0m:     [22-05-2024 18:02:23] Waiting for application startup.
+[32mINFO[0m:     [22-05-2024 18:02:23] Application startup complete.
+[32mINFO[0m:     [22-05-2024 18:02:23] Uvicorn running on [1mhttp://localhost:8000[0m (Press CTRL+C to quit)
+[32mINFO[0m:     [22-05-2024 18:03:06] ::1:50944 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [22-05-2024 18:03:06] ::1:50944 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [22-05-2024 18:03:09] ::1:50948 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [22-05-2024 18:03:10] ::1:50948 - "POST /api/v1/collections/c0a3e432-b63f-4e3d-b8b4-d671b8def439/get HTTP/1.1" 200
+[32mINFO[0m:     [22-05-2024 18:03:10] Collection academy_register is not created.
+[32mINFO[0m:     [22-05-2024 18:03:10] ::1:50948 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [22-05-2024 18:03:10] ::1:50948 - "POST /api/v1/collections/c0a3e432-b63f-4e3d-b8b4-d671b8def439/get HTTP/1.1" 200
+[32mINFO[0m:     [22-05-2024 18:03:41] Collection academy_register is not created.
+[32mINFO[0m:     [22-05-2024 18:03:41] ::1:50968 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [22-05-2024 18:03:41] ::1:50968 - "GET /api/v1/pre-flight-checks HTTP/1.1" 200
+[36mDEBUG[0m:    [22-05-2024 18:03:41] Starting component PersistentLocalHnswSegment
+[32mINFO[0m:     [22-05-2024 18:03:41] ::1:50968 - "POST /api/v1/collections/c0a3e432-b63f-4e3d-b8b4-d671b8def439/add HTTP/1.1" 201
+[32mINFO[0m:     [22-05-2024 18:03:43] Collection academy_register is not created.
+[32mINFO[0m:     [22-05-2024 18:03:43] ::1:50968 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [22-05-2024 18:03:43] ::1:50968 - "POST /api/v1/collections/c0a3e432-b63f-4e3d-b8b4-d671b8def439/get HTTP/1.1" 200
+[32mINFO[0m:     [22-05-2024 18:03:43] Collection academy_register is not created.
+[32mINFO[0m:     [22-05-2024 18:03:43] ::1:50968 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [22-05-2024 18:03:43] ::1:50968 - "POST /api/v1/collections/c0a3e432-b63f-4e3d-b8b4-d671b8def439/get HTTP/1.1" 200
+[32mINFO[0m:     [22-05-2024 18:03:45] Collection academy_register is not created.
+[32mINFO[0m:     [22-05-2024 18:03:45] ::1:50968 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [22-05-2024 18:03:45] ::1:50968 - "POST /api/v1/collections/c0a3e432-b63f-4e3d-b8b4-d671b8def439/get HTTP/1.1" 200
+[32mINFO[0m:     [22-05-2024 18:03:46] Collection academy_register is not created.
+[32mINFO[0m:     [22-05-2024 18:03:46] ::1:50968 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [22-05-2024 18:03:46] ::1:50968 - "POST /api/v1/collections/c0a3e432-b63f-4e3d-b8b4-d671b8def439/get HTTP/1.1" 200
+[32mINFO[0m:     [22-05-2024 18:03:51] ::1:50968 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [22-05-2024 18:03:51] ::1:50968 - "POST /api/v1/collections/817fe263-a632-429f-ab77-18a7241a3837/get HTTP/1.1" 200
+[32mINFO[0m:     [22-05-2024 18:03:52] Collection academy_register is not created.
+[32mINFO[0m:     [22-05-2024 18:03:52] ::1:50968 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [22-05-2024 18:03:52] ::1:50968 - "POST /api/v1/collections/c0a3e432-b63f-4e3d-b8b4-d671b8def439/get HTTP/1.1" 200
+[32mINFO[0m:     [22-05-2024 18:03:52] Collection attendance_logs is not created.
+[32mINFO[0m:     [22-05-2024 18:03:52] ::1:50968 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [22-05-2024 18:03:52] ::1:50968 - "POST /api/v1/collections/817fe263-a632-429f-ab77-18a7241a3837/get HTTP/1.1" 200
+[32mINFO[0m:     [22-05-2024 18:03:53] Collection academy_register is not created.
+[32mINFO[0m:     [22-05-2024 18:03:53] ::1:50968 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [22-05-2024 18:03:53] ::1:50968 - "POST /api/v1/collections/c0a3e432-b63f-4e3d-b8b4-d671b8def439/get HTTP/1.1" 200
+[32mINFO[0m:     [22-05-2024 18:03:53] Collection academy_register is not created.
+[32mINFO[0m:     [22-05-2024 18:03:53] ::1:50968 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [22-05-2024 18:03:53] ::1:50968 - "POST /api/v1/collections/c0a3e432-b63f-4e3d-b8b4-d671b8def439/get HTTP/1.1" 200
+[32mINFO[0m:     [22-05-2024 18:03:55] Collection academy_register is not created.
+[32mINFO[0m:     [22-05-2024 18:03:55] ::1:50968 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [22-05-2024 18:03:55] ::1:50968 - "POST /api/v1/collections/c0a3e432-b63f-4e3d-b8b4-d671b8def439/get HTTP/1.1" 200
+[32mINFO[0m:     [22-05-2024 18:03:55] Collection academy_register is not created.
+[32mINFO[0m:     [22-05-2024 18:03:55] ::1:50968 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [22-05-2024 18:03:55] ::1:50968 - "POST /api/v1/collections/c0a3e432-b63f-4e3d-b8b4-d671b8def439/get HTTP/1.1" 200
+[32mINFO[0m:     [22-05-2024 18:03:56] Collection academy_register is not created.
+[32mINFO[0m:     [22-05-2024 18:03:56] ::1:50968 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [22-05-2024 18:03:56] ::1:50968 - "POST /api/v1/collections/c0a3e432-b63f-4e3d-b8b4-d671b8def439/get HTTP/1.1" 200
+[32mINFO[0m:     [22-05-2024 18:03:59] Collection academy_register is not created.
+[32mINFO[0m:     [22-05-2024 18:03:59] ::1:50968 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [22-05-2024 18:03:59] ::1:50968 - "POST /api/v1/collections/c0a3e432-b63f-4e3d-b8b4-d671b8def439/get HTTP/1.1" 200
+[32mINFO[0m:     [22-05-2024 18:03:59] Collection academy_register is not created.
+[32mINFO[0m:     [22-05-2024 18:03:59] ::1:50968 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [22-05-2024 18:03:59] ::1:50968 - "POST /api/v1/collections/c0a3e432-b63f-4e3d-b8b4-d671b8def439/get HTTP/1.1" 200
+[32mINFO[0m:     [22-05-2024 18:08:39] ::1:51111 - "GET / HTTP/1.1" 404
+[32mINFO[0m:     [22-05-2024 18:08:39] ::1:51111 - "GET /favicon.ico HTTP/1.1" 404
+[32mINFO[0m:     [22-05-2024 18:21:34] ::1:51490 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [22-05-2024 18:21:34] ::1:51490 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [22-05-2024 18:21:39] Collection academy_register is not created.
+[32mINFO[0m:     [22-05-2024 18:21:39] ::1:51494 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [22-05-2024 18:21:39] ::1:51494 - "POST /api/v1/collections/c0a3e432-b63f-4e3d-b8b4-d671b8def439/get HTTP/1.1" 200
+[32mINFO[0m:     [22-05-2024 18:21:40] Collection academy_register is not created.
+[32mINFO[0m:     [22-05-2024 18:21:40] ::1:51494 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [22-05-2024 18:21:40] ::1:51494 - "POST /api/v1/collections/c0a3e432-b63f-4e3d-b8b4-d671b8def439/get HTTP/1.1" 200
+[32mINFO[0m:     [22-05-2024 18:21:54] Collection academy_register is not created.
+[32mINFO[0m:     [22-05-2024 18:21:54] ::1:51494 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [22-05-2024 18:21:54] ::1:51494 - "GET /api/v1/pre-flight-checks HTTP/1.1" 200
+[33mWARNING[0m:  [22-05-2024 18:21:54] Add of existing embedding ID: doc_id
+[33mWARNING[0m:  [22-05-2024 18:21:54] Insert of existing embedding ID: doc_id
+[32mINFO[0m:     [22-05-2024 18:21:54] ::1:51494 - "POST /api/v1/collections/c0a3e432-b63f-4e3d-b8b4-d671b8def439/add HTTP/1.1" 201
+[32mINFO[0m:     [22-05-2024 18:21:56] Collection academy_register is not created.
+[32mINFO[0m:     [22-05-2024 18:21:56] ::1:51494 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [22-05-2024 18:21:56] ::1:51494 - "POST /api/v1/collections/c0a3e432-b63f-4e3d-b8b4-d671b8def439/get HTTP/1.1" 200
+[32mINFO[0m:     [22-05-2024 18:21:56] Collection academy_register is not created.
+[32mINFO[0m:     [22-05-2024 18:21:56] ::1:51494 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [22-05-2024 18:21:56] ::1:51494 - "POST /api/v1/collections/c0a3e432-b63f-4e3d-b8b4-d671b8def439/get HTTP/1.1" 200
+[32mINFO[0m:     [22-05-2024 18:21:58] Collection academy_register is not created.
+[32mINFO[0m:     [22-05-2024 18:21:58] ::1:51494 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [22-05-2024 18:21:58] ::1:51494 - "POST /api/v1/collections/c0a3e432-b63f-4e3d-b8b4-d671b8def439/get HTTP/1.1" 200
+[32mINFO[0m:     [22-05-2024 18:21:59] Collection academy_register is not created.
+[32mINFO[0m:     [22-05-2024 18:21:59] ::1:51494 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [22-05-2024 18:21:59] ::1:51494 - "POST /api/v1/collections/c0a3e432-b63f-4e3d-b8b4-d671b8def439/get HTTP/1.1" 200
+[32mINFO[0m:     [22-05-2024 18:22:01] Collection attendance_logs is not created.
+[32mINFO[0m:     [22-05-2024 18:22:01] ::1:51494 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [22-05-2024 18:22:01] ::1:51494 - "POST /api/v1/collections/817fe263-a632-429f-ab77-18a7241a3837/get HTTP/1.1" 200
+[32mINFO[0m:     [22-05-2024 18:22:02] Collection academy_register is not created.
+[32mINFO[0m:     [22-05-2024 18:22:02] ::1:51494 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [22-05-2024 18:22:02] ::1:51494 - "POST /api/v1/collections/c0a3e432-b63f-4e3d-b8b4-d671b8def439/get HTTP/1.1" 200
+[32mINFO[0m:     [22-05-2024 18:22:02] Collection attendance_logs is not created.
+[32mINFO[0m:     [22-05-2024 18:22:02] ::1:51494 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [22-05-2024 18:22:02] ::1:51494 - "POST /api/v1/collections/817fe263-a632-429f-ab77-18a7241a3837/get HTTP/1.1" 200
+[32mINFO[0m:     [22-05-2024 18:36:26] ::1:51985 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [22-05-2024 18:36:26] ::1:51985 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [22-05-2024 18:36:29] Collection attendance_logs is not created.
+[32mINFO[0m:     [22-05-2024 18:36:29] ::1:51988 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [22-05-2024 18:36:29] ::1:51988 - "POST /api/v1/collections/817fe263-a632-429f-ab77-18a7241a3837/get HTTP/1.1" 200
+[32mINFO[0m:     [22-05-2024 18:36:30] Collection attendance_logs is not created.
+[32mINFO[0m:     [22-05-2024 18:36:30] ::1:51988 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [22-05-2024 18:36:30] ::1:51988 - "POST /api/v1/collections/817fe263-a632-429f-ab77-18a7241a3837/get HTTP/1.1" 200
+[32mINFO[0m:     [22-05-2024 18:36:32] Collection attendance_logs is not created.
+[32mINFO[0m:     [22-05-2024 18:36:32] ::1:51988 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [22-05-2024 18:36:32] ::1:51988 - "POST /api/v1/collections/817fe263-a632-429f-ab77-18a7241a3837/get HTTP/1.1" 200
+[32mINFO[0m:     [22-05-2024 18:36:34] Collection attendance_logs is not created.
+[32mINFO[0m:     [22-05-2024 18:36:34] ::1:51988 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [22-05-2024 18:36:34] ::1:51988 - "POST /api/v1/collections/817fe263-a632-429f-ab77-18a7241a3837/get HTTP/1.1" 200
+[32mINFO[0m:     [22-05-2024 18:36:34] Collection attendance_logs is not created.
+[32mINFO[0m:     [22-05-2024 18:36:34] ::1:51988 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [22-05-2024 18:36:34] ::1:51988 - "POST /api/v1/collections/817fe263-a632-429f-ab77-18a7241a3837/get HTTP/1.1" 200
+[32mINFO[0m:     [22-05-2024 18:36:48] Collection academy_register is not created.
+[32mINFO[0m:     [22-05-2024 18:36:48] ::1:51988 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [22-05-2024 18:36:49] ::1:51988 - "GET /api/v1/pre-flight-checks HTTP/1.1" 200
+[33mWARNING[0m:  [22-05-2024 18:36:49] Add of existing embedding ID: doc_id
+[33mWARNING[0m:  [22-05-2024 18:36:49] Insert of existing embedding ID: doc_id
+[32mINFO[0m:     [22-05-2024 18:36:49] ::1:51988 - "POST /api/v1/collections/c0a3e432-b63f-4e3d-b8b4-d671b8def439/add HTTP/1.1" 201
+[32mINFO[0m:     [22-05-2024 18:36:50] Collection attendance_logs is not created.
+[32mINFO[0m:     [22-05-2024 18:36:50] ::1:51988 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [22-05-2024 18:36:50] ::1:51988 - "POST /api/v1/collections/817fe263-a632-429f-ab77-18a7241a3837/get HTTP/1.1" 200
+[32mINFO[0m:     [22-05-2024 18:36:51] Collection attendance_logs is not created.
+[32mINFO[0m:     [22-05-2024 18:36:51] ::1:51988 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [22-05-2024 18:36:51] ::1:51988 - "POST /api/v1/collections/817fe263-a632-429f-ab77-18a7241a3837/get HTTP/1.1" 200
+[32mINFO[0m:     [22-05-2024 18:36:53] Collection attendance_logs is not created.
+[32mINFO[0m:     [22-05-2024 18:36:53] ::1:51988 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [22-05-2024 18:36:53] ::1:51988 - "POST /api/v1/collections/817fe263-a632-429f-ab77-18a7241a3837/get HTTP/1.1" 200
+[32mINFO[0m:     [22-05-2024 18:36:54] Collection attendance_logs is not created.
+[32mINFO[0m:     [22-05-2024 18:36:54] ::1:51988 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [22-05-2024 18:36:54] ::1:51988 - "POST /api/v1/collections/817fe263-a632-429f-ab77-18a7241a3837/get HTTP/1.1" 200
+[33mWARNING[0m:  [23-05-2024 14:22:05] chroma_server_nofile is not supported on Windows. chroma_server_nofile will not be set.
+[32mINFO[0m:     [23-05-2024 14:22:05] Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+[36mDEBUG[0m:    [23-05-2024 14:22:05] Starting component System
+[36mDEBUG[0m:    [23-05-2024 14:22:05] Starting component OpenTelemetryClient
+[36mDEBUG[0m:    [23-05-2024 14:22:05] Starting component SqliteDB
+[36mDEBUG[0m:    [23-05-2024 14:22:05] Starting component QuotaEnforcer
+[36mDEBUG[0m:    [23-05-2024 14:22:05] Starting component Posthog
+[36mDEBUG[0m:    [23-05-2024 14:22:05] Starting component LocalSegmentManager
+[36mDEBUG[0m:    [23-05-2024 14:22:05] Starting component SegmentAPI
+[32mINFO[0m:     [23-05-2024 14:22:05] Started server process [[36m1924[0m]
+[32mINFO[0m:     [23-05-2024 14:22:05] Waiting for application startup.
+[32mINFO[0m:     [23-05-2024 14:22:05] Application startup complete.
+[32mINFO[0m:     [23-05-2024 14:22:05] Uvicorn running on [1mhttp://localhost:8000[0m (Press CTRL+C to quit)
+[32mINFO[0m:     [23-05-2024 14:22:44] ::1:60224 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [23-05-2024 14:22:44] ::1:60224 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [23-05-2024 14:22:44] Collection attendance_logs is not created.
+[32mINFO[0m:     [23-05-2024 14:22:44] ::1:60225 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [23-05-2024 14:22:44] ::1:60225 - "POST /api/v1/collections/817fe263-a632-429f-ab77-18a7241a3837/get HTTP/1.1" 200
+[32mINFO[0m:     [23-05-2024 14:24:05] Collection attendance_logs is not created.
+[32mINFO[0m:     [23-05-2024 14:24:05] ::1:60272 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [23-05-2024 14:24:05] ::1:60272 - "POST /api/v1/collections/817fe263-a632-429f-ab77-18a7241a3837/get HTTP/1.1" 200
+[32mINFO[0m:     [23-05-2024 14:24:05] Collection attendance_logs is not created.
+[32mINFO[0m:     [23-05-2024 14:24:05] ::1:60272 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [23-05-2024 14:24:05] ::1:60272 - "POST /api/v1/collections/817fe263-a632-429f-ab77-18a7241a3837/get HTTP/1.1" 200
+[32mINFO[0m:     [23-05-2024 14:24:07] ::1:60274 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [23-05-2024 14:24:07] ::1:60274 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [23-05-2024 14:24:07] ::1:60275 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [23-05-2024 14:24:07] ::1:60275 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [23-05-2024 14:24:10] ::1:60279 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [23-05-2024 14:24:10] ::1:60279 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [23-05-2024 14:24:12] ::1:60280 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [23-05-2024 14:24:12] ::1:60280 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [23-05-2024 14:24:12] ::1:60281 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [23-05-2024 14:24:12] ::1:60281 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [23-05-2024 14:24:13] ::1:60282 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [23-05-2024 14:24:13] ::1:60282 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [23-05-2024 14:24:18] ::1:60286 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [23-05-2024 14:24:18] ::1:60286 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [23-05-2024 14:24:18] ::1:60287 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [23-05-2024 14:24:18] ::1:60287 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [23-05-2024 14:24:20] ::1:60291 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [23-05-2024 14:24:20] ::1:60291 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [23-05-2024 14:24:20] Collection attendance_logs is not created.
+[32mINFO[0m:     [23-05-2024 14:24:20] ::1:60292 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[33mWARNING[0m:  [04-06-2024 13:12:52] chroma_server_nofile is not supported on Windows. chroma_server_nofile will not be set.
+[32mINFO[0m:     [04-06-2024 13:12:53] Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+[36mDEBUG[0m:    [04-06-2024 13:12:53] Starting component System
+[36mDEBUG[0m:    [04-06-2024 13:12:53] Starting component OpenTelemetryClient
+[36mDEBUG[0m:    [04-06-2024 13:12:53] Starting component SqliteDB
+[36mDEBUG[0m:    [04-06-2024 13:12:53] Starting component QuotaEnforcer
+[36mDEBUG[0m:    [04-06-2024 13:12:53] Starting component Posthog
+[36mDEBUG[0m:    [04-06-2024 13:12:53] Starting component LocalSegmentManager
+[36mDEBUG[0m:    [04-06-2024 13:12:53] Starting component SegmentAPI
+[32mINFO[0m:     [04-06-2024 13:12:53] Started server process [[36m13740[0m]
+[32mINFO[0m:     [04-06-2024 13:12:53] Waiting for application startup.
+[32mINFO[0m:     [04-06-2024 13:12:53] Application startup complete.
+[32mINFO[0m:     [04-06-2024 13:12:53] Uvicorn running on [1mhttp://localhost:8000[0m (Press CTRL+C to quit)
+[32mINFO[0m:     [04-06-2024 13:13:25] ::1:55244 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [04-06-2024 13:13:25] ::1:55244 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [04-06-2024 13:13:25] ::1:55245 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [04-06-2024 13:16:15] ::1:55344 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [04-06-2024 13:16:15] ::1:55344 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [04-06-2024 13:16:15] Collection academy-register is not created.
+[32mINFO[0m:     [04-06-2024 13:16:15] ::1:55345 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [04-06-2024 13:16:15] ::1:55346 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [04-06-2024 13:16:15] ::1:55346 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [04-06-2024 13:16:15] ::1:55347 - "GET /api/v1/collections/academy-register?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [04-06-2024 13:16:15] ::1:55347 - "POST /api/v1/collections/5eb0948b-be26-4069-b783-34c140ed13c1/get HTTP/1.1" 200
+[32mINFO[0m:     [04-06-2024 13:16:15] Collection academy_register is not created.
+[32mINFO[0m:     [04-06-2024 13:16:15] ::1:55345 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [04-06-2024 13:16:21] Collection academy-register is not created.
+[32mINFO[0m:     [04-06-2024 13:16:21] ::1:55345 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [04-06-2024 13:16:22] Collection academy-register is not created.
+[32mINFO[0m:     [04-06-2024 13:16:22] ::1:55345 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [04-06-2024 13:16:23] Collection academy-register is not created.
+[32mINFO[0m:     [04-06-2024 13:16:23] ::1:55345 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [04-06-2024 13:16:28] Collection academy-register is not created.
+[32mINFO[0m:     [04-06-2024 13:16:28] ::1:55345 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [04-06-2024 13:16:28] ::1:55347 - "GET /api/v1/collections/academy-register?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [04-06-2024 13:16:28] ::1:55347 - "POST /api/v1/collections/5eb0948b-be26-4069-b783-34c140ed13c1/get HTTP/1.1" 200
+[32mINFO[0m:     [04-06-2024 13:16:28] Collection academy-register is not created.
+[32mINFO[0m:     [04-06-2024 13:16:28] ::1:55345 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [04-06-2024 13:16:30] Collection academy-register is not created.
+[32mINFO[0m:     [04-06-2024 13:16:30] ::1:55345 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [04-06-2024 13:16:31] Collection academy-register is not created.
+[32mINFO[0m:     [04-06-2024 13:16:31] ::1:55345 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [04-06-2024 13:16:31] Collection academy-register is not created.
+[32mINFO[0m:     [04-06-2024 13:16:31] ::1:55345 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [04-06-2024 13:16:38] Collection academy-register is not created.
+[32mINFO[0m:     [04-06-2024 13:16:38] ::1:55345 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [04-06-2024 13:16:38] ::1:55347 - "GET /api/v1/collections/academy-register?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [04-06-2024 13:16:38] ::1:55347 - "POST /api/v1/collections/5eb0948b-be26-4069-b783-34c140ed13c1/get HTTP/1.1" 200
+[32mINFO[0m:     [04-06-2024 13:16:38] Collection academy-register is not created.
+[32mINFO[0m:     [04-06-2024 13:16:38] ::1:55345 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [04-06-2024 13:16:40] Collection academy-register is not created.
+[32mINFO[0m:     [04-06-2024 13:16:40] ::1:55345 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [04-06-2024 13:16:40] Collection academy-register is not created.
+[32mINFO[0m:     [04-06-2024 13:16:40] ::1:55345 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [04-06-2024 13:16:45] Collection academy-register is not created.
+[32mINFO[0m:     [04-06-2024 13:16:45] ::1:55345 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [04-06-2024 13:18:21] Collection academy-register is not created.
+[32mINFO[0m:     [04-06-2024 13:18:21] ::1:55396 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [04-06-2024 13:18:21] ::1:55397 - "GET /api/v1/collections/academy-register?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [04-06-2024 13:18:21] ::1:55397 - "POST /api/v1/collections/5eb0948b-be26-4069-b783-34c140ed13c1/get HTTP/1.1" 200
+[32mINFO[0m:     [04-06-2024 13:18:21] Collection academy-register is not created.
+[32mINFO[0m:     [04-06-2024 13:18:21] ::1:55396 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [04-06-2024 13:18:24] Collection academy-register is not created.
+[32mINFO[0m:     [04-06-2024 13:18:24] ::1:55396 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [04-06-2024 13:18:25] Collection academy-register is not created.
+[32mINFO[0m:     [04-06-2024 13:18:25] ::1:55396 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [04-06-2024 13:18:25] Collection academy-register is not created.
+[32mINFO[0m:     [04-06-2024 13:18:25] ::1:55396 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [04-06-2024 13:18:33] Collection academy-register is not created.
+[32mINFO[0m:     [04-06-2024 13:18:33] ::1:55396 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [04-06-2024 13:18:33] ::1:55397 - "GET /api/v1/collections/academy-register?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [04-06-2024 13:18:33] ::1:55397 - "POST /api/v1/collections/5eb0948b-be26-4069-b783-34c140ed13c1/get HTTP/1.1" 200
+[32mINFO[0m:     [04-06-2024 13:18:33] Collection academy-register is not created.
+[32mINFO[0m:     [04-06-2024 13:18:33] ::1:55396 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [04-06-2024 13:22:30] ::1:55500 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [04-06-2024 13:22:30] ::1:55500 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [04-06-2024 13:22:30] Collection academy-register is not created.
+[32mINFO[0m:     [04-06-2024 13:22:30] ::1:55501 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [04-06-2024 13:22:30] ::1:55503 - "GET /api/v1/collections/academy-register?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [04-06-2024 13:22:30] ::1:55503 - "POST /api/v1/collections/5eb0948b-be26-4069-b783-34c140ed13c1/get HTTP/1.1" 200
+[32mINFO[0m:     [04-06-2024 13:22:30] Collection academy_register is not created.
+[32mINFO[0m:     [04-06-2024 13:22:30] ::1:55501 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [04-06-2024 13:22:34] Collection academy-register is not created.
+[32mINFO[0m:     [04-06-2024 13:22:34] ::1:55509 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [04-06-2024 13:22:34] Collection academy-register is not created.
+[32mINFO[0m:     [04-06-2024 13:22:34] ::1:55509 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [04-06-2024 13:22:37] Collection academy-register is not created.
+[32mINFO[0m:     [04-06-2024 13:22:37] ::1:55509 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [04-06-2024 13:22:43] Collection academy-register is not created.
+[32mINFO[0m:     [04-06-2024 13:22:43] ::1:55509 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [04-06-2024 13:22:43] ::1:55503 - "GET /api/v1/collections/academy-register?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [04-06-2024 13:22:43] ::1:55503 - "POST /api/v1/collections/5eb0948b-be26-4069-b783-34c140ed13c1/get HTTP/1.1" 200
+[32mINFO[0m:     [04-06-2024 13:22:44] Collection academy-register is not created.
+[32mINFO[0m:     [04-06-2024 13:22:44] ::1:55509 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [04-06-2024 13:22:46] Collection academy-register is not created.
+[32mINFO[0m:     [04-06-2024 13:22:46] ::1:55509 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [04-06-2024 13:22:46] Collection academy-register is not created.
+[32mINFO[0m:     [04-06-2024 13:22:46] ::1:55509 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [04-06-2024 13:23:00] ::1:55533 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [04-06-2024 13:23:00] ::1:55533 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [04-06-2024 13:23:00] Collection academy-register is not created.
+[32mINFO[0m:     [04-06-2024 13:23:00] ::1:55534 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [04-06-2024 13:23:00] ::1:55534 - "GET /api/v1/pre-flight-checks HTTP/1.1" 200
+[36mDEBUG[0m:    [04-06-2024 13:23:00] Starting component PersistentLocalHnswSegment
+[32mINFO[0m:     [04-06-2024 13:23:00] ::1:55534 - "POST /api/v1/collections/5eb0948b-be26-4069-b783-34c140ed13c1/add HTTP/1.1" 201
+[32mINFO[0m:     [04-06-2024 13:23:02] Collection academy-register is not created.
+[32mINFO[0m:     [04-06-2024 13:23:02] ::1:55509 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [04-06-2024 13:23:02] ::1:55503 - "GET /api/v1/collections/academy-register?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [04-06-2024 13:23:02] ::1:55503 - "POST /api/v1/collections/5eb0948b-be26-4069-b783-34c140ed13c1/get HTTP/1.1" 200
+[32mINFO[0m:     [04-06-2024 13:23:02] Collection academy-register is not created.
+[32mINFO[0m:     [04-06-2024 13:23:02] ::1:55509 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [04-06-2024 13:23:11] Collection academy-register is not created.
+[32mINFO[0m:     [04-06-2024 13:23:11] ::1:55509 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [04-06-2024 13:23:12] Collection academy-register is not created.
+[32mINFO[0m:     [04-06-2024 13:23:12] ::1:55509 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [04-06-2024 13:23:12] ::1:55503 - "GET /api/v1/collections/academy-register?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [04-06-2024 13:23:12] ::1:55503 - "POST /api/v1/collections/5eb0948b-be26-4069-b783-34c140ed13c1/get HTTP/1.1" 200
+[32mINFO[0m:     [04-06-2024 13:23:12] Collection academy-register is not created.
+[32mINFO[0m:     [04-06-2024 13:23:12] ::1:55509 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [04-06-2024 13:23:15] Collection academy-register is not created.
+[32mINFO[0m:     [04-06-2024 13:23:15] ::1:55509 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [04-06-2024 13:23:15] Collection academy-register is not created.
+[32mINFO[0m:     [04-06-2024 13:23:15] ::1:55509 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [04-06-2024 13:23:24] Collection academy-register is not created.
+[32mINFO[0m:     [04-06-2024 13:23:24] ::1:55509 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [04-06-2024 13:23:24] ::1:55503 - "GET /api/v1/collections/academy-register?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [04-06-2024 13:23:24] ::1:55503 - "POST /api/v1/collections/5eb0948b-be26-4069-b783-34c140ed13c1/get HTTP/1.1" 200
+[32mINFO[0m:     [04-06-2024 13:23:24] Collection academy-register is not created.
+[32mINFO[0m:     [04-06-2024 13:23:24] ::1:55509 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [04-06-2024 13:23:28] Collection academy-register is not created.
+[32mINFO[0m:     [04-06-2024 13:23:28] ::1:55509 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [04-06-2024 13:23:28] Collection academy-register is not created.
+[32mINFO[0m:     [04-06-2024 13:23:28] ::1:55509 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [04-06-2024 13:23:42] Collection academy-register is not created.
+[32mINFO[0m:     [04-06-2024 13:23:42] ::1:55509 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [04-06-2024 13:23:42] ::1:55503 - "GET /api/v1/collections/academy-register?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [04-06-2024 13:23:42] ::1:55503 - "POST /api/v1/collections/5eb0948b-be26-4069-b783-34c140ed13c1/get HTTP/1.1" 200
+[32mINFO[0m:     [04-06-2024 13:23:43] Collection academy-register is not created.
+[32mINFO[0m:     [04-06-2024 13:23:43] ::1:55509 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [04-06-2024 13:24:27] Collection academy-register is not created.
+[32mINFO[0m:     [04-06-2024 13:24:27] ::1:55570 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [04-06-2024 13:24:27] ::1:55571 - "GET /api/v1/collections/academy-register?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [04-06-2024 13:24:27] ::1:55571 - "POST /api/v1/collections/5eb0948b-be26-4069-b783-34c140ed13c1/get HTTP/1.1" 200
+[32mINFO[0m:     [04-06-2024 13:24:28] Collection academy-register is not created.
+[32mINFO[0m:     [04-06-2024 13:24:28] ::1:55570 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [04-06-2024 13:24:44] Collection academy-register is not created.
+[32mINFO[0m:     [04-06-2024 13:24:44] ::1:55570 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [04-06-2024 13:24:44] ::1:55571 - "GET /api/v1/collections/academy-register?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [04-06-2024 13:24:44] ::1:55571 - "POST /api/v1/collections/5eb0948b-be26-4069-b783-34c140ed13c1/get HTTP/1.1" 200
+[32mINFO[0m:     [04-06-2024 13:24:44] Collection academy-register is not created.
+[32mINFO[0m:     [04-06-2024 13:24:44] ::1:55570 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [04-06-2024 13:24:46] Collection academy-register is not created.
+[32mINFO[0m:     [04-06-2024 13:24:46] ::1:55570 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [04-06-2024 13:24:51] Collection academy-register is not created.
+[32mINFO[0m:     [04-06-2024 13:24:51] ::1:55570 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [04-06-2024 13:24:51] Collection academy-register is not created.
+[32mINFO[0m:     [04-06-2024 13:24:51] ::1:55570 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [04-06-2024 13:24:56] Collection academy-register is not created.
+[32mINFO[0m:     [04-06-2024 13:24:56] ::1:55570 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [04-06-2024 13:24:56] ::1:55571 - "GET /api/v1/collections/academy-register?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [04-06-2024 13:24:57] ::1:55571 - "POST /api/v1/collections/5eb0948b-be26-4069-b783-34c140ed13c1/get HTTP/1.1" 200
+[32mINFO[0m:     [04-06-2024 13:24:57] Collection academy-register is not created.
+[32mINFO[0m:     [04-06-2024 13:24:57] ::1:55570 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [04-06-2024 13:25:00] Collection academy-register is not created.
+[32mINFO[0m:     [04-06-2024 13:25:00] ::1:55570 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [04-06-2024 13:25:00] Collection academy-register is not created.
+[32mINFO[0m:     [04-06-2024 13:25:00] ::1:55570 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [04-06-2024 13:25:02] Collection academy-register is not created.
+[32mINFO[0m:     [04-06-2024 13:25:02] ::1:55570 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [04-06-2024 13:25:03] Collection academy-register is not created.
+[32mINFO[0m:     [04-06-2024 13:25:03] ::1:55570 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [04-06-2024 13:25:03] Collection academy-register is not created.
+[32mINFO[0m:     [04-06-2024 13:25:03] ::1:55570 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [04-06-2024 13:25:05] Collection academy-register is not created.
+[32mINFO[0m:     [04-06-2024 13:25:05] ::1:55570 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
